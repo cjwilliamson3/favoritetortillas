@@ -1,0 +1,33 @@
+/* Global Styles */
+.section-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.hero {
+  background: url('../img/bg_0.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.s1 {
+  background: url('../img/bg_1.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Small Screens */
+@media only screen and (min-width : 768px) {
+}
+
+/* Medium Screens */
+@media only screen and (min-width : 992px) {
+}
+
+/* Large Screens */
+@media only screen and (min-width : 1200px) {
+}
