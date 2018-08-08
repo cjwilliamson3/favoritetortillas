@@ -1,4 +1,8 @@
 /* Global Styles */
+body {
+  background-color: #f3f2f4;
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin-top: 10px;
 }
@@ -69,6 +73,17 @@ h1, h2, h3, h4, h5, h6 {
 .products-section {
   padding-top: 60px;
   padding-bottom: 60px;
+  background-color: #0a4eef;
+}
+
+.products-section blockqoute {
+  border: 0;
+  margin-bottom: 60px;
+}
+
+/* Recipe Section */
+.recipe-section {
+  padding: 60px 0 60px 0;
 }
 
 /* Contact Us Section */
@@ -100,6 +115,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* Small Screens */
 @media only screen and (min-width : 768px) {
+  .navbar-nav>li>a {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /* Medium Screens */
