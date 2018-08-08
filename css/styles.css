@@ -1,27 +1,123 @@
 /* Global Styles */
-.section-container {
-  height: 100vh;
-  display: flex;
-  align-items: center;
+body {
+  background-color: #f3f2f4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 10px;
+}
+
+.text-white {
+  color: #ffffff
+}
+
+/* Navbar */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  border: 0;
+  min-height: 60px;
+}
+
+.navbar-default {
+  background-color: #f6cc0c;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
   color: #ffffff;
 }
 
-.hero {
-  background: url('../img/bg_0.jpg');
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
+.navbar-default .navbar-brand {
+  color: #ffffff;
 }
 
-.s1 {
-  background: url('../img/bg_1.jpg');
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
+.navbar-brand {
+  padding: 0;
 }
 
+.navbar-brand img {
+  max-width: 80px;
+}
+
+.brand {
+  padding-left: 10px;
+}
+
+/* Home Section */
+.home-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(../img/tortilla1.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-section h2 {
+  padding: 30px;
+}
+
+/* History Section */
+.history-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* Products Section */
+.products-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #0a4eef;
+}
+
+.products-section blockqoute {
+  border: 0;
+  margin-bottom: 60px;
+}
+
+/* Recipe Section */
+.recipe-section {
+  padding: 60px 0 60px 0;
+}
+
+/* Contact Us Section */
+.contact-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #0a4eef;
+}
+
+/* Footer Section */
+.footer-section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #f6cc0c;
+}
+
+.footer-section a {
+  color: #000000;
+}
+
+.footer-social {
+  text-decoration: none;
+}
+
+.fab, .far, .fas {
+  font-size: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
 /* Small Screens */
 @media only screen and (min-width : 768px) {
+  .navbar-nav>li>a {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /* Medium Screens */
