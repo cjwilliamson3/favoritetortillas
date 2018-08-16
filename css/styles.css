@@ -7,6 +7,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 10px;
 }
 
+a:focus, a:hover {
+  text-decoration: none;
+}
+
 .text-white {
   color: #ffffff
 }
@@ -20,20 +24,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default {
-  background-color: #f6cc0c;
+  background-color: #f3f2f4;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  color: #ffffff;
+  color: #000000;
   background-color: transparent;
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-  color: #ffffff;
+  color: #000000;
 }
 
 .navbar-default .navbar-brand {
-  color: #ffffff;
+  color: #000000;
 }
 
 .navbar-brand {
@@ -50,9 +54,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Home Section */
 .home-section {
+  padding-top: 60px;
   height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   background: url(../img/tortilla1.jpg);
   background-position: top;
   background-repeat: no-repeat;
@@ -60,7 +65,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .home-section h2 {
-  padding: 30px;
+  padding: 5px 0 5px 0;
+  color: #000000;
+}
+
+.text-box {
+  background-color: rgba(255, 255, 255, .80);
+  margin-bottom: 30px;
 }
 
 /* History Section */
@@ -78,6 +89,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .products-section blockqoute {
   border: 0;
+}
+
+.product-description {
   margin-bottom: 60px;
 }
 
@@ -113,17 +127,39 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
   margin-right: 5px;
 }
+
+/* Extra Small */
+@media only screen and (max-width : 767px) {
+  .home-section {
+    align-items: center;
+  }
+
+  .home-section h2 {
+    font-size: 24px;
+  }
+}
+
 /* Small Screens */
 @media only screen and (min-width : 768px) {
   .navbar-nav>li>a {
     padding-top: 20px;
     padding-bottom: 20px;
-}
+  }
 
+  .home-section h2 {
+    font-size: 28px;
+  }
+}
 /* Medium Screens */
 @media only screen and (min-width : 992px) {
+  .home-section h2 {
+    font-size: 40px;
+  }
 }
 
 /* Large Screens */
 @media only screen and (min-width : 1200px) {
+  .home-section h2 {
+    font-size: 75px;
+  }
 }
