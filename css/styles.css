@@ -1,3 +1,11 @@
+/* Font Reference
+font-family: 'Gochi Hand', cursive;
+font-family: 'Sarina', cursive;
+font-family: 'Leckerli One', cursive;
+font-family: 'Pattaya', sans-serif;
+font-family: 'Galada', cursive;
+*/
+
 /* Global Styles a*/
 body {
   background-color: #f3f2f4;
@@ -24,7 +32,7 @@ a:focus, a:hover {
 }
 
 .navbar-default {
-  background-color: #f3f2f4;
+  background-color: #ffffff;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
@@ -48,8 +56,23 @@ a:focus, a:hover {
   max-width: 80px;
 }
 
+.brand-position {
+  margin-left: 30px;
+}
+
 .brand {
   padding-left: 10px;
+}
+
+.logo-text {
+  /* font-family: 'Pattaya', sans-serif; */
+  /* font-family: 'Galada', cursive; */
+  font-family: 'Leckerli One', cursive;
+  /* font-family: 'Sarina', cursive; */
+}
+
+.logo-text a {
+  font-size: 20px;
 }
 
 /* Home Section */
@@ -78,6 +101,27 @@ a:focus, a:hover {
 .history-section {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.history-header {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #f40134;
+}
+
+.history-content {
+  font-family: 'Gochi Hand', cursive;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.history-pics {
+  margin-bottom: 10px;
+}
+
+.pic-center {
+  display: flex;
+  justify-content: space-around;
 }
 
 /* Products Section */

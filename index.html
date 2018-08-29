@@ -13,13 +13,14 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
     <!-- link google fonts here -->
+    <link href="https://fonts.googleapis.com/css?family=Carter+One|Galada|Gochi+Hand|Leckerli+One|Pattaya|Sarina" rel="stylesheet">
     <!-- link all the css here -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body data-spy="scroll" data-target="#main-nav">
-  <nav id="#main-nav" class="navbar navbar-default navbar-fixed-top">
+  <nav id="main-nav" class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -30,17 +31,17 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="index.html">
-          <img src="img/mrlogo1.png" alt="Mi Rancho">
+          <img class="brand-position" src="img/mrlogo1.png" alt="Mi Rancho">
         </a>
       </div> <!-- /.navbar-header -->
 
       <div class="hidden-xs brand pull-left">
-        <h1>Mi-Rancho</h1>
+        <h1 class="logo-text">Mi-Rancho</h1>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav navbar-right logo-text">
           <li><a href="#home-section">Home</a></li>
           <li><a href="#history-section">History</a></li>
           <li><a href="#products-section">Products</a></li>
@@ -55,9 +56,10 @@
     <div class="container">
       <div class="row text-center">
         <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-6 col-lg-7 col-lg-offset-5 text-box">
-          <h2 class="">Quality Isn't Everything.</h2>
+          <h2 class="">Quality Isn't Everything</h2>
+          <br>
           <!-- <img src="img/joaquin.png" alt="Joaquin"> -->
-          <h2 class="">It's The Only Thing!</h2>
+          <h2 class="">It's The Only Thing</h2>
         </div>
       </div> <!-- /.row -->
     </div> <!-- /.container -->
@@ -67,9 +69,31 @@
     <section id="history-section" class="history-section">
       <div class="container">
         <div class="row">
-          <h2 class="text-center">Our History</h2>
-          <div class="col-sm-12 col-md-6">
-            <p>dates, images, notes</p>
+          <h2 class="text-center logo-text history-header">Our History</h2>
+          <div class="col-xs-12 col-sm-12 col-md-8 history-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum debitis totam minus architecto fugiat tempora sapiente dolores quia nobis deleniti amet, ea fuga, perspiciatis similique, autem veniam harum, ullam repellat?</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam cumque laborum, quod vitae similique molestiae incidunt veritatis repellendus, tenetur magnam cupiditate eaque, ducimus molestias! Ducimus enim, at ipsam expedita officiis.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio et, numquam impedit neque, architecto id nostrum aspernatur a eaque dolor deleniti excepturi ex mollitia temporibus molestiae fuga perspiciatis eos ab.</p>
+          </div>
+          <div class="col-xs-12 col-md-3">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-xs-12 hidden-sm hidden-md hidden-lg history-pics pic-center">
+                  <img src="img/fam1.jpg" alt="Father and Son 1" width="270" height="200">
+                </div>
+                <div class="hidden-xs col-sm-4 col-md-12 history-pics">
+                  <img src="img/fam1.jpg" alt="Father and Son 1" width="225">
+                </div>
+                <div class="hidden-xs col-sm-4 col-md-12 history-pics">
+                  <img src="img/fam2.jpg" alt="Father and Son 2" width="225">
+                </div>
+                <div class="hidden-xs col-sm-4 col-md-12 history-pics">
+                  <img src="img/conveyor1.png" alt="Conveyor Belt" width="225">
+                </div>
+              </div>
+            </div>
           </div>
         </div> <!-- /.row -->
       </div> <!-- /.container -->
@@ -146,7 +170,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-md-push-6">
-            <h2 class="text-white">Mi-Rancho | Mi-Familia</h2>
+            <h2 class="text-white logo-text">Mi-Rancho | Mi-Familia</h2>
             <p class="text-white">Additional content</p>
 
             <ul class="list-group contact-list">
