@@ -13,6 +13,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 10px;
+  font-family: 'Leckerli One', cursive;
+}
+
+p {
+  font-family: 'Gochi Hand', cursive;
+  font-size: 20px;
 }
 
 a:focus, a:hover {
@@ -28,7 +34,7 @@ a:focus, a:hover {
   margin-bottom: 0;
   border-radius: 0;
   border: 0;
-  min-height: 60px;
+  min-height: 120px;
 }
 
 .navbar-default {
@@ -53,7 +59,7 @@ a:focus, a:hover {
 }
 
 .navbar-brand img {
-  max-width: 80px;
+  max-width: 200px;
 }
 
 .brand-position {
@@ -78,7 +84,7 @@ a:focus, a:hover {
 /* Home Section */
 .home-section {
   padding-top: 60px;
-  height: 100vh;
+  height: 75vh;
   display: flex;
   align-items: flex-end;
   background: url(../img/tortilla1.jpg);
@@ -93,29 +99,33 @@ a:focus, a:hover {
 }
 
 .text-box {
-  background-color: rgba(255, 255, 255, .80);
+  background-color: rgba(255, 255, 255, .45);
   margin-bottom: 30px;
+  border-radius: 15px 50px;
 }
 
-/* History Section */
-.history-section {
+/* Story Section */
+.story-section {
+  margin: 30px;
   padding-top: 60px;
   padding-bottom: 60px;
+  background-color: rgba(43, 98, 215, .85);
+  border-radius: 15px;
 }
 
-.history-header {
+.story-header {
   font-size: 40px;
-  margin-bottom: 20px;
-  color: #f40134;
+  margin-bottom: 60px;
+  color: #f6cc0c;
 }
 
-.history-content {
+.story-content {
   font-family: 'Gochi Hand', cursive;
   font-size: 22px;
   margin-bottom: 20px;
 }
 
-.history-pics {
+.story-pics {
   margin-bottom: 10px;
 }
 
@@ -127,35 +137,78 @@ a:focus, a:hover {
 /* Products Section */
 .products-section {
   padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #0a4eef;
+  padding-bottom: 80px;
 }
 
-.products-section blockqoute {
-  border: 0;
-}
-
-.product-description {
+.products-header {
+  font-size: 40px;
   margin-bottom: 60px;
+  color: #f40134;
 }
 
-/* Recipe Section */
-.recipe-section {
-  padding: 60px 0 60px 0;
+.tab-content h4 {
+  font-size: 24px;
+}
+
+.tab-pane {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.nav-tabs a {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  color: #f40134;
+}
+
+.tab-content>.active {
+  padding-right: 20px;
+  padding-left: 20px;
+  color: #ffffff;
+  background-color: rgba(43, 98, 215, .85);
+  border-radius: 15px;
+}
+
+.mr-wrapper {
+  margin-bottom: 15px;
+}
+
+.butter {
+  color: #f6cc0c;
+}
+
+.product-pics img {
+  padding: 5px;
+  max-width: 350px;
+  max-height: 350px;
 }
 
 /* Contact Us Section */
 .contact-section {
+  margin: 15px;
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #0a4eef;
+  background-color: rgba(43, 98, 215, .85);
+  border-radius: 15px;
+}
+
+.contact-section p {
+  margin: 0;
+}
+
+.contact-list {
+  margin-top: 20px;
+  color: #000000;
 }
 
 /* Footer Section */
 .footer-section {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #f6cc0c;
+  background-color: #ffffff;
 }
 
 .footer-section a {
@@ -167,7 +220,7 @@ a:focus, a:hover {
 }
 
 .fab, .far, .fas {
-  font-size: 30px;
+  font-size: 22px;
   margin-left: 5px;
   margin-right: 5px;
 }
@@ -204,6 +257,6 @@ a:focus, a:hover {
 /* Large Screens */
 @media only screen and (min-width : 1200px) {
   .home-section h2 {
-    font-size: 75px;
+    font-size: 60px;
   }
 }
